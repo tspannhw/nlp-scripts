@@ -1,5 +1,7 @@
 import spacy
 
+# pip3 install -U spacy
+# python3 -m spacy download en
 # major upgrade
 
 nlp = spacy.load("en_core_web_sm")
